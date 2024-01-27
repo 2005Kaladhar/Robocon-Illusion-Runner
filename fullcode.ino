@@ -26,6 +26,16 @@ const int offsetB = 1;
 // motor2 is left motor
 // motor1 is right motor
 
+// Sensor Connections are : 
+/*
+Out5 = A1
+Out4 = A2
+Out3 = A3
+Out2 = A4
+Out1 = A5
+*/
+
+
 Motor motor1 = Motor(AIN1, AIN2, PWMA, offsetA, STBY);
 Motor motor2 = Motor(BIN1, BIN2, PWMB, offsetB, STBY);
 
